@@ -25,7 +25,7 @@ class Body extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
           child: Text(
-            "Sumario",
+            "O ${movie.title}",
             style: Theme.of(context).textTheme.headline5,
           ),
         ),
